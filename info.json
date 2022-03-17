@@ -1,0 +1,115 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "http://cbrjk.com/",
+            "path": "index.html",
+            "saved": true,
+            "size": 5580,
+            "children": [
+                {
+                    "url": "http://www.rjkcb.com/zb_users/upload/2022/02/202202111644554177263308.jpg",
+                    "path": "img/202202111644554177263308.jpeg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "http://cbrjk.com/js/rjk.js",
+                    "path": "js/rjk.js",
+                    "saved": true,
+                    "size": 93636,
+                    "children": []
+                },
+                {
+                    "url": "http://cbrjk.com/js/tab.js",
+                    "path": "js/tab.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "http://cbrjk.com/css/tc.css",
+                    "path": "css/tc.css",
+                    "saved": true,
+                    "size": 2035,
+                    "children": []
+                },
+                {
+                    "url": "https://cb6.lanzoux.com/s/cls",
+                    "path": "cls.html",
+                    "saved": true,
+                    "size": 976,
+                    "children": [
+                        {
+                            "url": "https://s19.cnzz.com/z_stat.php?id=568507&web_id=568507",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://s4.cnzz.com/z_stat.php?id=1253610885&web_id=1253610885",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://s95.cnzz.com/stat.php?id=1253610888&web_id=1253610888",
+                            "saved": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "alias": "cbrjk-com-63e8c45",
+    "info": {
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "http://cbrjk.com/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "redirects": [],
+            "responseUrl": "http://cbrjk.com/",
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Sun, 13 Feb 2022 15:26:28 GMT",
+                "content-type": "text/html; charset=UTF-8",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding"
+            }
+        },
+        "time": {
+            "start": "2022-02-13T15:26:28.671Z",
+            "end": "2022-02-13T15:26:30.274Z"
+        },
+        "remark": [],
+        "title": "软件库导航",
+        "ip": "43.132.157.139",
+        "url": "http://cbrjk.com/",
+        "main": "index.html",
+        "domain": "cbrjk.com",
+        "origin": "http://cbrjk.com",
+        "totalSize": "102 kB"
+    },
+    "options": {
+        "formatter": [],
+        "url": "http://cbrjk.com/",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "filenameGenerator": "byType"
+    }
+}

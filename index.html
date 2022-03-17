@@ -1,0 +1,244 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>软件库导航</title>
+<link rel="stylesheet" href="css/tc.css">
+
+<style type="text/css">
+* {
+    margin                     : 0;
+    padding                    : 0;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-overflow-scrolling : touch;
+    overflow-scrolling         : touch;
+}
+html,body{
+    width:100%;
+    height:100%;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.find_nav {
+    width           : 100%;
+    height          : 45px;
+    background-color: #f9f9f9;
+    position        : fixed;
+    top             : 0;
+    z-index         : 99;
+    border-bottom   : 1px solid #ddd;
+    display         : -moz-box;
+    display         : -webkit-box;
+    display         : box;
+}
+
+.find_nav_left {
+    height          : 46px;
+    position        : relative;
+    overflow        : hidden;
+    -moz-box-flex   : 1;
+    -webkit-box-flex: 1;
+    box-flex        : 1;
+}
+
+.find_nav_list {
+    position: absolute;
+    left    : 0;
+}
+
+.find_nav_list ul {
+    position   : relative;
+    white-space: nowrap;
+    font-size  : 0;
+}
+
+.find_nav_list ul li {
+    display: inline-block;
+    padding: 0 13px;
+}
+
+.find_nav_list ul li a {
+    display    : block;
+    width      : 100%;
+    height     : 100%;
+    line-height: 46px;
+    font-size  : 18px;
+    text-align : center;
+    color      : #666;
+}
+
+.find_nav_cur a {
+    color: #48a5f4 !important;
+}
+
+.sideline {
+    display         : block;
+    position        : absolute;
+    border          : 0;
+    height          : 2px;
+    background-color: #48a5f4;
+    left            : 0;
+    top             : 43px;
+    pointer-events  : none;
+}
+
+.search_logo {
+    display    : block;
+    width      : 44px;
+    height     : 45px;
+    line-height: 45px;
+    text-align : center;
+    font-size  : 14px;
+    color      : #48a5f4;
+}
+
+#myFrame {
+    margin-top: 50px;
+    height    : 100%;
+    width:100%;
+    border:0;
+}
+</style>
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+    <div class="find_nav">
+        <div class="find_nav_left">
+            <div class="find_nav_list">
+                <ul>
+                    <li><a href="https://cb6.lanzoux.com/s/cls">⭕学习资料</a></li>
+<li><a href="https://cb6.lanzoux.com/s/cbrj">⭕软件库</a></li>
+<li><a href="https://sourl.cn/hiYsQZ">超稳👍日常赚零花钱💰</a></li>
+<li><a href="https://jq.qq.com/?_wv=1027&amp;k=j2jtHAxH">神车捡漏群</a></li>
+<li><a href="https://docs.qq.com/doc/DUExSY09ITW1zZUZG">软件帮助</a></li>
+                    <!--这里是顶部导航的列表，格式参照上面即可-->
+
+                    <li class="sideline"></li>
+                </ul>
+            </div>
+        </div>
+       
+        
+      </div>
+        
+    <iframe id="myFrame" src="cls.html"></iframe><!--这里是默认连接-->
+    
+
+
+
+
+
+
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1279182775'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/z_stat.php%3Fid%3D1279182775%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+
+
+ <script src="js/rjk.js"></script>
+    <script src="js/tab.js"></script>
+   
+
+<!--html引用弹窗开始-->
+<div class="layer"></div>
+<div id="globalAd">
+<div id="content"><br>
+<big>请牢记永久地址：<font color="#ff0000"><b>cbrjk.com</b></font></big>
+<a href="https://sourl.cn/hiYsQZ" target="_blank" title=""><img src="img/202202111644554177263308.jpeg" alt="" width="80%"></a>
+<a onclick="redirectUrlToActive();" class="btn btn-default" rel="nofollow"><big><b><font color="#ffffff">我已牢记</font></b></big></a>
+</div>
+<!--html引用弹窗结束-->
+
+<!--弹窗开始-->
+
+<script>
+jQuery.cookie = function(name, value, options) {
+if(typeof value != 'undefined') {
+options = options || {};
+if(value === null) {
+value = '';
+options.expires = -1;
+}
+var expires = '';
+if(options.expires && (typeof options.expires == 'number' || options.expires.toUTCString)) {
+var date;
+if(typeof options.expires == 'number') {
+date = new Date();
+var totalTime = 24 * 3600;
+var hour = date.getHours();
+var minutes = date.getMinutes();
+var seconds = date.getSeconds();
+var pastTime = 3600 * hour + 60 * minutes + seconds;
+var leftTime = totalTime - pastTime;
+date.setTime(date.getTime() + (options.expires * leftTime * 1000));
+} else {
+date = options.expires;
+}
+expires = '; expires=' + date.toUTCString();
+}
+var path = options.path ? '; path=' + (options.path) : '';
+var domain = options.domain ? '; domain=' + (options.domain) : '';
+var secure = options.secure ? '; secure' : '';
+document.cookie = [name, '=', encodeURIComponent(value), expires, path, domain, secure].join('');
+} else {
+var cookieValue = null;
+if(document.cookie && document.cookie != '') {
+var cookies = document.cookie.split(';');
+for(var i = 0; i < cookies.length; i++) {
+var cookie = jQuery.trim(cookies[i]);
+if(cookie.substring(0, name.length + 1) == (name + '=')) {
+cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+break;
+}
+}
+}
+return cookieValue;
+}
+};
+$(function() {
+var COOKIE_NAME = "erdangjiade";
+
+var erdangjiadeH = $(window).height();
+var erdangjiadeW = $(window).width();
+$(".layer").show();
+$("#globalAd").css({
+'top': erdangjiadeH / 2 - $("#globalAd").height() / 2,
+'left': erdangjiadeW / 2 - $("#globalAd").width() / 2
+});
+$("#globalAd").slideDown(300, function() {
+setTimeout("closeGloableAd()", '300000');
+});
+$.cookie(COOKIE_NAME, "erdangjiade", {
+path: '/',
+expires: 1
+});
+
+});
+
+function closeGlobalAd() {
+$('#globalAd').hide();
+$('.layer').hide();
+
+}
+
+function redirectUrlToActive() {
+$('#globalAd').hide();
+$('.layer').hide();
+}
+</script>
+<!--弹窗结束-->
+
+
+
+ 
+</div></body></html>
